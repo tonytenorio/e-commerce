@@ -9,6 +9,10 @@
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+	<link href="https://fonts.googleapis.com/css?family=Ubuntu|Ubuntu+Condensed" rel="stylesheet">
+
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="css/font-awesome.min.css">
     <link rel="stylesheet" href="css/styles.css">
@@ -272,10 +276,199 @@
     
     </header>
 
+    <!--=====================================
+    SLIDESHOW  
+    ======================================-->
+
+    <div class="container-fluid" id="slide">
+
+        <div class="row">
+
+            <!--=====================================
+            DIAPOSITIVAS
+            ======================================-->
+
+            <ul>
+
+                <!-- SLIDE 1 -->
+
+                <li>
+
+                    <img src="img/back_default.jpg">
+
+                    <div class="slideOpciones slideOpcion1">
+
+                        <img class="imgProducto" src="img/calzado.png" style="top:15%; right:10%; width:45%">
+
+                        <div class="textosSlide" style="top:20%; left:10%; width:40%">
+
+                            <h1 style="color:#333">Lorem Ipsum</h1>
+
+                            <h2 style="color:#777">Lorem ipsum dolor sit</h2>
+
+                            <h3 style="color:#888">Lorem ipsum dolor sit</h3>
+
+                            <a href="#">
+
+                                <button class="btn btn-default backColor text-uppercase">
+
+                                    VER PRODUCTO <span class="fa fa-chevron-right"></span>
+
+                                </button>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </li>
+
+                <!-- SLIDE 2 -->
+
+                <li>
+
+                    <img src="img/back_default.jpg">
+
+                    <div class="slideOpciones slideOpcion2">
+
+                        <img class="imgProducto" src="img/curso.png" style="top:5%; left:15%; width:25%">
+
+                        <div class="textosSlide" style="top:15%; right:15%; width:40%">
+
+                            <h1 style="color:#333">Lorem Ipsum</h1>
+
+                            <h2 style="color:#777">Lorem ipsum dolor sit</h2>
+
+                            <h3 style="color:#888">Lorem ipsum dolor sit</h3>
+
+                            <a href="#">
+
+                                <button class="btn btn-default backColor text-uppercase">
+
+                                    VER PRODUCTO <span class="fa fa-chevron-right"></span>
+
+                                </button>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </li>
+
+                <!-- SLIDE 3 -->
+
+                <li>
+
+                    <img src="img/fondo2.jpg">
+
+                    <div class="slideOpciones slideOpcion2">
+
+                        <img class="imgProducto" src="img/iphone.png" style="top:5%; left:15%; width:25%">
+
+                        <div class="textosSlide" style="top:15%; right:15%; width:40%">
+
+                            <h1 style="color:#eee">Lorem Ipsum</h1>
+
+                            <h2 style="color:#ccc">Lorem ipsum dolor sit</h2>
+
+                            <h3 style="color:#aaa">Lorem ipsum dolor sit</h3>
+
+                            <a href="#">
+
+                                <button class="btn btn-default backColor text-uppercase">
+
+                                    VER PRODUCTO <span class="fa fa-chevron-right"></span>
+
+                                </button>
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </li>
+
+                <!-- SLIDE 4 -->
+
+                <li>
+
+                    <img src="img/fondo3.jpg">
+
+                    <div class="slideOpciones slideOpcion1">
+
+                        <img class="imgProducto" src="" style="top:5%; right:15%; width:25%">
+
+                        <div class="textosSlide" style="top:20%; left:10%; width:40%">
+
+                            <h1 style="color:#333">Lorem Ipsum</h1>
+
+                            <h2 style="color:#777">Lorem ipsum dolor sit</h2>
+
+                            <h3 style="color:#888">Lorem ipsum dolor sit</h3>
+
+                            <a href="#">
+
+                                <!-- 	<button class="btn btn-default backColor text-uppercase">
+
+                                VER PRODUCTO <span class="fa fa-chevron-right"></span>
+
+                                </button> -->
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </li>
+
+            </ul>
+
+            <!--=====================================
+            PAGINACIÓN
+            ======================================-->
+
+            <ol id="paginacion">
+
+                <li item="1"><span class="fa fa-circle"></span></li>
+                <li item="2"><span class="fa fa-circle"></span></li>
+                <li item="3"><span class="fa fa-circle"></span></li>
+                <li item="4"><span class="fa fa-circle"></span></li>
+
+            </ol>
+
+            <!--=====================================
+            FLECHAS
+            ======================================-->
+
+            <div class="flechas" id="retroceder"><span class="fa fa-chevron-left"></span></div>
+            <div class="flechas" id="avanzar"><span class="fa fa-chevron-right"></span></div>
+
+        </div>
+
+    </div>
+
+    <div class="text-center">
+
+        <button id="btnSlide" class="backColor">
+
+            <i class="fa fa-angle-up"></i>
+
+        </button>
+
+    </div>
+
+
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Latest compiled and minified JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    
+    <script src="js/jquery.easing.js"></script>
     <script src="js/main.js"></script>
 </body>
 </html>
